@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icon2.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <title>Cafe</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#menu">MENU</a>
+        <a href="#where">WHERE</a>
+    </nav>
+
+    <header class="header" id="home">
+        <h1>
+            <span>the</span>
+            <span>Cafe</span>
+        </h1>
+        <div class="botlr">
+            <p class="p1">Open from 6am to 5pm</p>
+            <p class="p2">15 Adr street, 5015</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="about" id="about">
+            <div class="title">
+                <h2>ABOUT THE CAFE</h2>
+            </div>
+            <p class="prg1">The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p class="prg1">
+                In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.
+            </p>
+            <div class="pbot">
+               <p class="prg2">
+                "Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.
+               </p>
+               <p class="prg1">
+                Chef, Coffeeist and Owner: Liam Brown
+               </p>
+            </div>
+            <img src="./img/coffeeshop.jpg" alt="shop">
+            <p class="prg1">
+                <b>Opening hours</b>: everyday from 6am to 5pm.
+            </p>
+            <p class="prg1">
+                <b>Address</b>: 15 Adr street, 5015, NY
+            </p>
+        </section>
+
+        <section class="menu" id="menu">
+            <div class="title">
+                <h2>THE MENU</h2>
+            </div>
+
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'eat')" id="defaultOpen">Eat</button>
+                <button class="tablinks" onclick="openCity(event, 'drink')">Drink</button>
+              </div>
+              
+              <div id="eat" class="tabcontent">
+                <h5>Bread Basket</h5>
+                <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+                <br>
+                <h5>Honey Almond Granola with Fruits</h5>
+                <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                <br>
+                <h5>Belgian Waffle</h5>
+                <p>Vanilla flavored batter with malted flour 7.50</p>
+                <br>
+                <h5>Scrambled eggs</h5>
+                <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                <br>
+                <h5>Blueberry Pancakes</h5>
+                <p>With syrup, butter and lots of berries 8.50</p>
+              </div>
+              
+              <div id="drink" class="tabcontent">
+                <h5>Coffee</h5>
+                <p>Regular coffee 2.50</p>
+                <br>
+                <h5>Chocolato</h5>
+                <p>Chocolate espresso with milk 4.50</p>
+                <br>
+                <h5>Corretto</h5>
+                <p>Whiskey and coffee 5.00</p>
+                <br>
+                <h5>Iced Tea</h5>
+                <p>Hot tea, except not hot 3.00</p>
+                <br>
+                <h5>Soda</h5>
+                <p>Coke, Sprite, Fanta, etc. 2.50</p>
+              </div>
+
+              <img src="./img/coffeehouse2.jpg" alt="c2">
+        </section>
+
+        <section class="where" id="where">
+            <div class="title">
+                <h2>WHERE TO FIND US</h2>
+            </div>
+            <p class="par1">Find us at some address at some place.</p>
+            <img src="./img/map.jpg" alt="map">
+            <p class="par1">
+                <span>FYI!</span>
+                 We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+            </p>
+            <p class="par1">
+                <b>Reserve</b>
+                 a table, ask for today's special or just send us a message:
+            </p>
+
+            <form action="#">
+                <input type="text" name="name" id="name" placeholder="Name" required>
+                <input type="number" name="how" id="how" placeholder="How many people" required>
+                <input type="datetime-local" name="dat" id="dat" placeholder="Data and time" value="2021-05-24T13:30">
+                <input type="text" name="massage" id="message" placeholder="Message \ Special requirements">
+                <button type="submit">SEND MESSAGE</button>
+            </form>
+        </section>
+    </div>
+
+
+    <footer class="footer">
+        <p>
+            Powered by
+            <a href="">w3.css</a>
+        </p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
